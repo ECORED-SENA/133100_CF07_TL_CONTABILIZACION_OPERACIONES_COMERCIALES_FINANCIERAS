@@ -265,13 +265,13 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'xyz xyz',
-          cargo: 'Líder del ecosistema',
-          centro: 'Dirección General',
+          nombre: 'Claudia Johanna Gomez Perez',
+          cargo: 'Responsable del ecosistema',
+          centro: ' Centro Agroturístico- Regional Santander',
         },
         {
-          nombre: 'Olga Constanza Bermudez Jaimes',
-          cargo: 'Responsable de línea de producción',
+          nombre: 'Olga Constanza Bermúdez Jaimes',
+          cargo: 'Responsable de Línea de Producción Huila',
           centro: 'Dirección General',
         },
       ],
@@ -297,48 +297,42 @@ export default {
       autores: [
         {
           nombre: 'Yerson Fabian Zarate Saavedra',
-          cargo: 'Diseñador de contenidos digitales',
+          cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Jhon Edinson Castañeda Oviedo',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
-        },
-        {
-          nombre: 'Cielo Damaris Ángulo Rodríguez',
-          cargo: 'Desarrollador <i>full stack</i>',
+          nombre: 'Cielo Damaris Angulo Rodríguez',
+          cargo: 'Desarrollador <i>Fullstack</i>',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
     {
-      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
+      titulo: 'GESTORES DE REPOSITORIO',
       autores: [
         {
           nombre: 'Aixa Natalia Sendoya Fernández',
-          cargo: 'Validador de recursos educativos digitales',
+          cargo: 'Validador de Recursos Educativos Digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador de recursos educativos digitales',
+          cargo: 'Validador de Recursos Educativos Digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Raúl Mosquera Serrano',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },

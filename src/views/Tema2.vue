@@ -41,7 +41,7 @@
         .col
           h3 Reconocimiento
       
-      p.mb-5 Una entidad reconocerá la emisión de acciones o de otros instrumentos de patrimonio cuando emita esos instrumentos y otra parte esté obligada a proporcionar efectivo u otros recursos a la entidad a cambio de éstos. (Pasivos y patrimonio 2009, s.f).
+      p.mb-5 Una entidad reconocerá la emisión de acciones o de otros instrumentos de patrimonio cuando emita esos instrumentos y otra parte esté obligada a proporcionar efectivo u otros recursos a la entidad a cambio de estos. (Pasivos y patrimonio 2009, s.f).
 
         .row.mb-5.m-0.ajuste-espacios-movil
           .col-lg-4.espacio__cajas_movil
@@ -416,7 +416,7 @@
             p Art. 454. Incremento en el porcentaje de distribución de utilidades. Si la suma de las reservas legal, estatutaria y ocasional excediere del ciento por ciento (100 %) del capital suscrito, el porcentaje obligatorio de utilidades líquidas que deberá repartir la sociedad conforme al artículo 155, se elevará al setenta por ciento. (Código de Comercio Colombiano, 1971).
               br
               br
-              |La reserva legal es un ahorro que las empresas por mandato legal en Colombia están obligadas a utilizar con el fin de proteger el capital y preservar las empresas en el futuro evitando disolverse o liquidarse por la disminución de su patrimonio. Las sociedades limitadas, las anónimas, las en comandita por acciones y las extranjeras. Deben hacer uso de la figura reserva legal. En el primer año, no se efectúan reservas; es decir, no aplica el 10 % sobre las utilidades.
+              |La reserva legal es un ahorro que las empresas, por mandato legal en Colombia, están obligadas a utilizar con el fin de proteger el capital y preservar las empresas en el futuro, evitando disolverse o liquidarse por la disminución de su patrimonio. Las sociedades limitadas, las anónimas, las en comandita por acciones y las extranjeras. Deben hacer uso de la figura reserva legal. En el primer año, no se efectúan reservas; es decir, no aplica el 10 % sobre las utilidades.
           .col-12.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0
             img(src='@/assets/curso/tema2/img-13.svg', alt='' style="max-width: 250px").mx-auto
 
@@ -424,7 +424,7 @@
       .py-3.py-md-4(titulo="Art. 456" style="background-color: #F9F7F4")
         .d-flex.flex-wrap.col-xl-11.mx-auto
           .col-lg-8.mb-4.mb-md-0.pe-lg-4.order-2.order-lg-1
-            p Según el Código del Comercio, sección II reparto de utilidades artículo 456, las reservas se utilizan para:
+            p Según el Código del Comercio, sección II, reparto de utilidades, artículo 456, las reservas se utilizan para:
             h4 Reservas estatutarias y ocasionales
             p Art. 456. Manejo de pérdidas. Las pérdidas se enjugarán con las reservas que hayan sido destinadas especialmente para ese propósito y, en su defecto, con la reserva legal. Las reservas cuya finalidad fuere la de absorber determinadas pérdidas no se podrán emplear para cubrir otras distintas, salvo que así lo decida la asamblea. Si la reserva legal fuere insuficiente para enjugar el déficit de capital, se aplicarán a este fin los beneficios sociales de los ejercicios siguientes.
               br

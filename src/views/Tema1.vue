@@ -455,7 +455,7 @@
         p.p-4.mb-4(style="background-color: #CBD8DF") El emisor de un instrumento financiero lo clasificará en el momento de su reconocimiento como un pasivo financiero, un activo financiero o un instrumento de patrimonio de conformidad con el acuerdo contractual que protocoliza el instrumento. Una forma de distinguir un pasivo financiero de un instrumento de patrimonio es que exista una obligación contractual que recae sobre cualquiera de las partes de entregar activos o intercambiar pasivos y activos de manera desfavorable para el emisor.
         p Por ejemplo, si se trata de una acción preferencial, esta será reconocida como un pasivo financiero si el emisor está obligado a reembolsar por una cantidad acordada.
 
-        p En el caso de un instrumento con opción de venta, es decir, que el tenedor debe devolverlo al emisor a cambio de efectivo u otro activo se reconoce como un pasivo financiero.
+        p En el caso de un instrumento con opción de venta, es decir, que el tenedor debe devolverlo al emisor a cambio de efectivo u otro activo, se reconoce como un pasivo financiero.
         
       .mx-auto.col-md-7.col-lg-5.order-1.order-lg-2
         img(src="@/assets/curso/tema1/img-16.png", alt="", style="max-width: 505px").mx-auto.mb-4.ps-lg-4   
@@ -792,12 +792,12 @@
           .tarjeta.color-acento-botones--borde.p-4(titulo="Medición inicial")
             h4 Medición inicial
             .d-flex.flex-wrap.align-items-center.gap-3
-              p.order-2.order-md-1.col-12.col-md Los activos y los pasivos financieros se valoran inicialmente por su valor razonable, que es el precio del hecho económico salvo evidencia en contrario.
+              p.order-2.order-md-1.col-12.col-md Los activos y los pasivos financieros se valoran inicialmente por su valor razonable, que es el precio del hecho económico, salvo evidencia en contrario.
               img.mx-auto.order-1.order-md-2(src="@/assets/curso/tema1/img-28.svg", alt="", style="max-width: 155px").m-auto
           .tarjeta.color-acento-botones--borde.p-4(titulo="Medición posterior")
             h4 Medición posterior
             .d-flex.flex-wrap.align-items-center.gap-3
-              p.order-2.order-md-1.col-12.col-md Es la forma de reconocer en los estados financieros de manera posterior, el importe del instrumento con el reconocimiento de los ajustes correspondientes dependiendo de la forma como es reconocido y medido el título.
+              p.order-2.order-md-1.col-12.col-md Es la forma de reconocer en los estados financieros de manera posterior, el importe del instrumento con el reconocimiento de los ajustes correspondientes, dependiendo de la forma como es reconocido y medido el título.
                 br
                 br
                 |La medición se efectúa de acuerdo con el modelo de negocio del suscriptor. A valor razonable con cambios en el resultado del ejercicio, a costo amortizado con el interés efectivo y a valor razonable con cambios en el patrimonio de la sociedad. 
