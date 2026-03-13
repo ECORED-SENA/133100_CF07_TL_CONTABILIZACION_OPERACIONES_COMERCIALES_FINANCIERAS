@@ -14,7 +14,7 @@
             figure(data-aos="fade-up")
               img.mb-4.mb-lg-0(src="@/assets/curso/tema2/img-2.svg", alt="" style="max-width: 81px").m-auto
           .col-xl
-            p.mb-0 Algunos ejemplos de instrumentos de patrimonio, son las acciones ordinarias, ciertos tipos de acciones preferentes, así como, las opciones u otro tipo de derechos o bonos para la suscripción o compra de acciones ordinarias de la empresa.
+            p.mb-0 Algunos ejemplos de instrumentos de patrimonio son las acciones ordinarias, ciertos tipos de acciones preferentes, así como las opciones u otro tipo de derechos o bonos para la suscripción o compra de acciones ordinarias de la empresa.
         p.mb-4 A continuación, se relaciona un ejemplo específico de ello:
           br
           br
@@ -64,7 +64,7 @@
                 figure.mb-3
                   img(src='@/assets/curso/tema2/img-3.svg', alt='' style="max-width: 105px").m-auto
                 p.text-center.fw-bold 03
-                p.text-center En la medida en que los instrumentos de patrimonio hayan sido suscritos, pero no emitidos y la entidad no haya todavía recibido el efectivo o los otros recursos, la entidad no reconocerá un incremento en el patrimonio.
+                p.text-center En la medida en que los instrumentos de patrimonio hayan sido suscritos, pero no emitidos, y la entidad no haya todavía recibido el efectivo o los otros recursos, la entidad no reconocerá un incremento en el patrimonio.
 
 
       .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
@@ -83,7 +83,7 @@
         p.mb-0.p-4(style="background-color: #FEEAD4") #[b Ejemplo:]
           br
           br
-          |La sociedad Contable SAS, compra el primero de julio del año 0 un paquete de acciones del Banco de Bogotá, por valor de $130.000.000 y las clasifica como activos disponibles para la venta.
+          |La sociedad Contable S.A.S. compra el primero de julio del año 0 un paquete de acciones del Banco de Bogotá, por valor de $130.000.000; y las clasifica como activos disponibles para la venta.
       .mx-auto.col-lg-5.order-1.order-lg-2
         img(src="@/assets/curso/tema2/img-4.svg", alt="", style="max-width: 505px").mx-auto.mb-4.ps-lg-4
 
@@ -98,9 +98,9 @@
           |A 31 de diciembre del año 0, el valor razonable del paquete de acciones es de $125.000.000 y el valor razonable de la opción es de $1.600.000.
 
     .row.fondo-slider.mb-5.ajuste-espacios-movil(:style="{'background-image': `url(${require('@/assets/curso/tema1/img-bg-table.png')})`, backgroundSize: 'cover'}")
-      .ajuste-slider
+      .col-12.ajuste-slider
         SlyderA(tipo="b")
-          .d-flex.flex-wrap.col-xl-11.mx-auto
+          .row.justify-content-center
             .col-12.col-lg-10.col-xl-9.mx-auto(data-aos="fade-right")
               p.fw-bold.text-center Reconocimiento inicial, compra del paquete de acciones
               .titulo-sexto.color-acento-contenido.mb-3
@@ -110,19 +110,19 @@
                 table.table-type-1
                   thead
                     tr
-                      th(colspan="2") Cuenta
-                      th Débitos
-                      th Créditos
+                      th(colspan="2").text-start Cuenta
+                      th.text-start Débitos
+                      th.text-start Créditos
                   tbody
                     tr
-                      td.text-start(colspan="2") Inversiones financieras a largo plazo en instrumentos de patrimonio
-                      td.text-end $ 130.000.000,00
-                      td.text-end -
+                      td.text-start(colspan="2") Inversiones financieras a largo<br>plazo en instrumentos de patrimonio
+                      td.text-start $130.000.000,00
+                      td.text-start -
                     tr
                       td.text-start(colspan="2") Bancos
-                      td.text-end -
-                      td.text-end $ 130.000.000,00
-          .d-flex.flex-wrap.col-xl-11.mx-auto
+                      td.text-start -
+                      td.text-start $130.000.000,00
+          .row.justify-content-center
             .col-12.col-lg-10.col-xl-9.mx-auto(data-aos="fade-right")
               p.fw-bold.text-center Reconocimiento inicial, compra de las opciones
               .titulo-sexto.color-acento-contenido.mb-3
@@ -132,19 +132,19 @@
                 table.table-type-1
                   thead
                     tr
-                      th(colspan="2") Cuenta
-                      th Débitos
-                      th Créditos
+                      th(colspan="2").text-start Cuenta
+                      th.text-start Débitos
+                      th.text-start Créditos
                   tbody
                     tr
-                      td.text-start(colspan="2") Activos por derivados financieros a largo plazo, instrumentos de cobertura
-                      td.text-end $ 130.000.000,00
-                      td.text-end -
+                      td.text-start(colspan="2") Activos por derivados financieros a largo<br>plazo, instrumentos de cobertura
+                      td.text-start $130.000.000,00
+                      td.text-start -
                     tr
                       td.text-start(colspan="2") Bancos
-                      td.text-end -
-                      td.text-end $ 130.000.000,00
-          .d-flex.flex-wrap.col-xl-11.mx-auto
+                      td.text-start -
+                      td.text-start $130.000.000,00
+          .row.justify-content-center
             .col-12.col-lg-10.col-xl-9.mx-auto(data-aos="fade-right")
               p.fw-bold.text-center Reconocimiento posterior a 31 de diciembre. Por la contabilización de la partida cubierta a valor razonable con cambios en resultados
               .titulo-sexto.color-acento-contenido.mb-3
@@ -154,19 +154,19 @@
                 table.table-type-1
                   thead
                     tr
-                      th(colspan="2") Cuenta
-                      th Débitos
-                      th Créditos
+                      th(colspan="2").text-start Cuenta
+                      th.text-start Débitos
+                      th.text-start Créditos
                   tbody
                     tr
                       td.text-start(colspan="2") Pérdidas de disponibles para laventa
-                      td.text-end $ 5.000.000,00
-                      td.text-end -
+                      td.text-start $5.000.000,00
+                      td.text-start -
                     tr
-                      td.text-start(colspan="2") Inversiones financieras a largo plazo en instrumentos de patrimonio
-                      td.text-end -
-                      td.text-end $ 5.000.000,00
-          .d-flex.flex-wrap.col-xl-11.mx-auto
+                      td.text-start(colspan="2") Inversiones financieras a largo plazo<br>en instrumentos de patrimonio
+                      td.text-start -
+                      td.text-start $5.000.000,00
+          .row.justify-content-center
             .col-12.col-lg-10.col-xl-9.mx-auto(data-aos="fade-right")
               p.fw-bold.text-center Reconocimiento posterior a 31 de diciembre. Por la contabilización del instrumento de cobertura a su valor razonable, con cambios en los resultados del ejercicio
               .titulo-sexto.color-acento-contenido.mb-3
@@ -176,18 +176,18 @@
                 table.table-type-1
                   thead
                     tr
-                      th(colspan="2") Cuenta
-                      th Débitos
-                      th Créditos
+                      th(colspan="2").text-start Cuenta
+                      th.text-start Débitos
+                      th.text-start Créditos
                   tbody
                     tr
-                      td.text-start(colspan="2") Activos por derivados financieros a largo plazo, instrumentos de cobertura
-                      td.text-end $ 300.000,00
-                      td.text-end -
+                      td.text-start(colspan="2") Activos por derivados financieros a largo<br>plazo, instrumentos de cobertura
+                      td.text-start $300.000,00
+                      td.text-start -
                     tr
-                      td.text-start(colspan="2") Inversiones financieras a largo plazo en instrumentos de patrimonio
-                      td.text-end -
-                      td.text-end $ 300.000,00
+                      td.text-start(colspan="2") Inversiones financieras a largo plazo<br>en instrumentos de patrimonio
+                      td.text-start -
+                      td.text-start $300.000,00
     separador
 
     .fondo-slider(style="background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(255,245,234) 30%, rgba(255,245,234) 80%, rgba(0,0,0,0) 100%);")
@@ -203,14 +203,14 @@
               | #[b Autorizado:] es el valor máximo de capitalización de una sociedad. 
             li
               i.fas.fa-angle-right.txt--purple
-              | #[b Suscrito:] es la parte del capital autorizado, que los accionistas se comprometen a pagar, como si fuera una venta a plazos, sin superar el año, artículo 387 del Código del Comercio. Para el caso de las sociedades simplificadas por acciones S.A.S., el plazo es de dos años acorde a la Ley 1258 de 2008, artículo 387. 
+              | #[b Suscrito:] es la parte del capital autorizado que los accionistas se comprometen a pagar, como si fuera una venta a plazos, sin superar el año, artículo 387 del Código del Comercio. Para el caso de las sociedades simplificadas por acciones S.A.S., el plazo es de dos años acorde a la Ley 1258 de 2008, artículo 387. 
             li
               i.fas.fa-angle-right.txt--purple
               | #[b Pagado:] es la parte del capital suscrito que los accionistas han cancelado y que efectivamente se encuentra en poder de la sociedad.
           p.mb-0.p-4(style="background-color: #E6DCFB") #[b Ejemplo.]
             br
             br
-            |En 2017 se constituyó la empresa Aprendiendo S.A., con un capital autorizado de 120.000 acciones con un valor por acción de $ 2.500, los accionistas suscribieron el 50 % de las acciones autorizadas y pagaron el 70 % de la suscripción.
+            |En 2017 se constituyó la empresa Aprendiendo S.A., con un capital autorizado de 120.000 acciones con un valor por acción de $2.500, los accionistas suscribieron el 50 % de las acciones autorizadas y pagaron el 70 % de la suscripción.
         .mx-auto.col-md-7.col-lg-5.order-1.order-lg-2
           img(src="@/assets/curso/tema2/img-5.svg", alt="", style="max-width: 505px").mx-auto.mb-4.ps-lg-4
 
@@ -232,18 +232,18 @@
           table.table-type-1
             thead
               tr
-                th Cuenta
-                th Débitos
-                th Créditos
+                th.text-start Cuenta
+                th.text-start Débitos
+                th.text-start Créditos
             tbody
               tr.bg-white
                 td.text-start Capital por suscribir
-                td.text-end $ 300.000.000
-                td.text-end -
+                td.text-start $300.000.000
+                td.text-start -
               tr.bg-white
                 td.text-start Capital autorizado
-                td.text-end -
-                td.text-end $ 300.000.000
+                td.text-start -
+                td.text-start $300.000.000
 
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 25.
@@ -252,23 +252,22 @@
           table.table-type-1
             thead
               tr
-                th Cuenta
-                th Débitos
-                th Créditos
+                th.text-start Cuenta
+                th.text-start Débitos
+                th.text-start Créditos
             tbody
               tr.bg-white
                 td.text-start Efectivo y sus equivalentes
-                td.text-end $ 105.000.000
-                td.text-end -
+                td.text-start $105.000.000
+                td.text-start -
               tr.bg-white
                 td.text-start Capital suscrito por pagar
-                td.text-end $ 45.000.000
-                td.text-end -
+                td.text-start $45.000.000
+                td.text-start -
               tr.bg-white
                 td.text-start Capital por suscribir
-                td.text-end -
-                td.text-end $ 150.000.000
-
+                td.text-start -
+                td.text-start $150.000.000
 
       .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
         .col-lg-auto
@@ -380,8 +379,8 @@
               figure(data-aos="fade-up")
                 img.mb-4.mb-lg-0(src="@/assets/curso/tema2/img-12.svg", alt="" style="max-width: 81px").m-auto
             .col-xl
-              p.mb-0 Es el dinero guardado que no es entregado a los accionistas en forma de dividendos, estas ganancias se encuentran en el patrimonio como ganancias acumuladas en el estado de situación financiera.
-          p.mb-0 De igual forma, se relaciona en el estado de cambios en el patrimonio; cuyo objetivo, es mostrar los cambios o variaciones presentadas de un periodo a otro. Entre las variaciones que se analizan y que son significativas para dicho estado financiero, se puede observar la política de dividendos que maneja la entidad, donde se encuentra estipulado no distribuir el 100 % de las utilidades del ejercicio, de tal manera, que la parte no decretada para reparto, queda acumulada hasta tanto los socios decidan distribuirla entre los accionistas.
+              p.mb-0 Es el dinero guardado que no es entregado a los accionistas en forma de dividendos; estas ganancias se encuentran en el patrimonio como ganancias acumuladas en el estado de situación financiera.
+          p.mb-0 De igual forma, se relaciona en el estado de cambios en el patrimonio, cuyo objetivo, es mostrar los cambios o variaciones presentadas de un periodo a otro. Entre las variaciones que se analizan y que son significativas para dicho estado financiero, se puede observar la política de dividendos que maneja la entidad, donde se encuentra estipulado no distribuir el 100 % de las utilidades del ejercicio de tal manera; que la parte no decretada para reparto queda acumulada hasta tanto los socios decidan distribuirla entre los accionistas.
 
     separador
 
@@ -391,29 +390,26 @@
     p.mb-5 Están contempladas en los artículos 452, 453 y 454 del Código del Comercio, sección II reparto de utilidades.
 
     TabsC.color-acento-botones
-      .py-3.py-md-4(titulo="Art. 452" style="background-color: #F9F7F4")
-        .d-flex.flex-wrap.col-xl-11.mx-auto
+      .p-3.p-md-4(titulo="Art. 452" style="background-color: #F9F7F4")
+        .d-flex.flex-wrap.col-xl-11.mx-auto.align-items-center
           .col-lg-8.mb-4.mb-md-0.pe-lg-4.order-2.order-lg-1
-            h4 Reserva legal
-            p Las sociedades anónimas constituirán una reserva legal que ascenderá por lo menos al cincuenta por ciento del capital suscrito, formada con el diez por ciento de las utilidades líquidas de cada ejercicio. Cuando esta reserva llegue al cincuenta por ciento mencionado, la sociedad no tendrá obligación de continuar llevando a esta cuenta el diez por ciento de las utilidades líquidas. Pero si disminuye, volverá a apropiarse el mismo diez por ciento de tales utilidades hasta cuando la reserva llegue nuevamente al límite fijado. Conc.: 110 num. 8o, 154, 271 num. 4o, 272 num. 5o., 350, 371, 454, 456, 476. (Legis. 2020).
+            p #[b Reserva legal.] Las sociedades anónimas constituirán una reserva legal que ascenderá por lo menos al cincuenta por ciento del capital suscrito, formada con el diez por ciento de las utilidades líquidas de cada ejercicio. Cuando esta reserva llegue al cincuenta por ciento mencionado, la sociedad no tendrá obligación de continuar llevando a esta cuenta el diez por ciento de las utilidades líquidas. Pero si disminuye, volverá a apropiarse el mismo diez por ciento de tales utilidades hasta cuando la reserva llegue nuevamente al límite fijado. Conc.: 110 num. 8o, 154, 271 num. 4o, 272 num. 5o, 350, 371, 454, 456, 476. (Legis, 2020).
           .col-12.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0
             img(src='@/assets/curso/tema2/img-13.svg', alt='' style="max-width: 250px").mx-auto
 
 
-      .py-3.py-md-4(titulo="Art. 453" style="background-color: #F9F7F4")
-        .d-flex.flex-wrap.col-xl-11.mx-auto
+      .p-3.p-md-4(titulo="Art. 453" style="background-color: #F9F7F4")
+        .d-flex.flex-wrap.col-xl-11.mx-auto.align-items-center
           .col-lg-8.mb-4.mb-md-0.pe-lg-4.order-2.order-lg-1
-            h4 Reservas estatutarias y ocasionales
-            p Art. 453. Reservas estatutarias y ocasionales. Las reservas estatutarias serán obligatorias mientras no se supriman mediante una reforma del contrato social, o mientras no alcancen el monto previsto para las mismas. Las reservas ocasionales que ordene la asamblea solo serán obligatorias para el ejercicio en el cual se hagan y la misma asamblea podrá cambiar su destinación o distribuirlas cuando resulten innecesarias. (leyes estatutarias 2020).
+            p #[b Reservas estatutarias y ocasionales.] Las reservas estatutarias serán obligatorias mientras no se supriman mediante una reforma del contrato social, o mientras no alcancen el monto previsto para las mismas. Las reservas ocasionales que ordene la asamblea solo serán obligatorias para el ejercicio en el cual se hagan y la misma asamblea podrá cambiar su destinación o distribuirlas cuando resulten innecesarias. (leyes estatutarias 2020).
           .col-12.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0
             img(src='@/assets/curso/tema2/img-13.svg', alt='' style="max-width: 250px").mx-auto
 
 
-      .py-3.py-md-4(titulo="Art. 454" style="background-color: #F9F7F4")
-        .d-flex.flex-wrap.col-xl-11.mx-auto
+      .p-3.p-md-4(titulo="Art. 454" style="background-color: #F9F7F4")
+        .d-flex.flex-wrap.col-xl-11.mx-auto.align-items-center
           .col-lg-8.mb-4.mb-md-0.pe-lg-4.order-2.order-lg-1
-            h4 Incremento en el porcentaje de distribución de utilidades
-            p Art. 454. Incremento en el porcentaje de distribución de utilidades. Si la suma de las reservas legal, estatutaria y ocasional excediere del ciento por ciento (100 %) del capital suscrito, el porcentaje obligatorio de utilidades líquidas que deberá repartir la sociedad conforme al artículo 155, se elevará al setenta por ciento. (Código de Comercio Colombiano, 1971).
+            p #[b Incremento en el porcentaje de distribución de utilidades.] Si la suma de las reservas legal, estatutaria y ocasional excediere del ciento por ciento (100 %) del capital suscrito, el porcentaje obligatorio de utilidades líquidas que deberá repartir la sociedad conforme al artículo 155 se elevará al setenta por ciento. (Código de Comercio Colombiano, 1971).
               br
               br
               |La reserva legal es un ahorro que las empresas, por mandato legal en Colombia, están obligadas a utilizar con el fin de proteger el capital y preservar las empresas en el futuro, evitando disolverse o liquidarse por la disminución de su patrimonio. Las sociedades limitadas, las anónimas, las en comandita por acciones y las extranjeras. Deben hacer uso de la figura reserva legal. En el primer año, no se efectúan reservas; es decir, no aplica el 10 % sobre las utilidades.
@@ -421,12 +417,11 @@
             img(src='@/assets/curso/tema2/img-13.svg', alt='' style="max-width: 250px").mx-auto
 
 
-      .py-3.py-md-4(titulo="Art. 456" style="background-color: #F9F7F4")
-        .d-flex.flex-wrap.col-xl-11.mx-auto
+      .p-3.p-md-4(titulo="Art. 456" style="background-color: #F9F7F4")
+        .d-flex.flex-wrap.col-xl-11.mx-auto.align-items-center
           .col-lg-8.mb-4.mb-md-0.pe-lg-4.order-2.order-lg-1
             p Según el Código del Comercio, sección II, reparto de utilidades, artículo 456, las reservas se utilizan para:
-            h4 Reservas estatutarias y ocasionales
-            p Art. 456. Manejo de pérdidas. Las pérdidas se enjugarán con las reservas que hayan sido destinadas especialmente para ese propósito y, en su defecto, con la reserva legal. Las reservas cuya finalidad fuere la de absorber determinadas pérdidas no se podrán emplear para cubrir otras distintas, salvo que así lo decida la asamblea. Si la reserva legal fuere insuficiente para enjugar el déficit de capital, se aplicarán a este fin los beneficios sociales de los ejercicios siguientes.
+            p #[b Manejo de pérdidas.] Las pérdidas se enjugarán con las reservas que hayan sido destinadas especialmente para ese propósito y, en su defecto, con la reserva legal. Las reservas cuya finalidad fuere la de absorber determinadas pérdidas no se podrán emplear para cubrir otras distintas, salvo que así lo decida la asamblea. Si la reserva legal fuere insuficiente para enjugar el déficit de capital, se aplicarán a este fin los beneficios sociales de los ejercicios siguientes.
               br
               br
               |La reserva legal para las sociedades de responsabilidad limitada aplicará el 10 % de reservas frente a sus utilidades acorde al libro segundo, responsabilidad limitada del Código del Comercio:
@@ -434,11 +429,10 @@
             img(src='@/assets/curso/tema2/img-13.svg', alt='' style="max-width: 250px").mx-auto
 
 
-      .py-3.py-md-4(titulo="Art. 371" style="background-color: #F9F7F4")
-        .d-flex.flex-wrap.col-xl-11.mx-auto
+      .p-3.p-md-4(titulo="Art. 371" style="background-color: #F9F7F4")
+        .d-flex.flex-wrap.col-xl-11.mx-auto.align-items-center
           .col-lg-8.mb-4.mb-md-0.pe-lg-4.order-2.order-lg-1
-            h4 Reserva legal, balances y reparto de utilidades
-            p Art. 371. Reserva legal, balances y reparto de utilidades. La sociedad formará una reserva legal, con sujeción a las reglas establecidas para la anónima. Estas mismas reglas se observarán en cuanto a los balances de fin de ejercicio y al reparto de utilidades. (Código de Comercio Colombiano, 2020b).
+            p #[b Reserva legal, balances y reparto de utilidades.] La sociedad formará una reserva legal, con sujeción a las reglas establecidas para la anónima. Estas mismas reglas se observarán en cuanto a los balances de fin de ejercicio y al reparto de utilidades. (Código de Comercio Colombiano, 2020b).
               br
               br
               |En las sociedades extranjeras aplicará el 10 % de reserva legal, como es aplicado en las sociedades anónimas, sin importar el tamaño de la empresa.
@@ -446,12 +440,12 @@
             img(src='@/assets/curso/tema2/img-13.svg', alt='' style="max-width: 250px").mx-auto
 
 
-      .py-3.py-md-4(titulo="Art. 476" style="background-color: #F9F7F4")
-        .d-flex.flex-wrap.col-xl-11.mx-auto
+      .p-3.p-md-4(titulo="Art. 476" style="background-color: #F9F7F4")
+        .d-flex.flex-wrap.col-xl-11.mx-auto.align-items-center
           .col-12.col-lg-6.mb-4.mb-lg-0.pe-lg-4
-            h4 Reservas y vigilancia
-            p Art. 476. Reservas y vigilancia. Las sociedades extranjeras con negocios permanentes en Colombia constituirán las reservas y provisiones que la ley exige a las anónimas nacionales y cumplirán los demás requisitos establecidos para su control y vigilancia.
-            p.mb-0 Frente a la utilidad se aplica el porcentaje vigente definido en cada reforma tributaria, del resultado obtenido, se aplica el 10 % de reserva legal y se resta a la utilidad líquida.
+  
+            p #[b Reservas y vigilancia.] Las sociedades extranjeras con negocios permanentes en Colombia constituirán las reservas y provisiones que la ley exige a las anónimas nacionales y cumplirán los demás requisitos establecidos para su control y vigilancia.
+            p.mb-0 Frente a la utilidad, se aplica el porcentaje vigente definido en cada reforma tributaria; del resultado obtenido, se aplica el 10 % de reserva legal y se resta a la utilidad líquida.
           .col-12.col-lg-6
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Tabla 26.
@@ -460,24 +454,24 @@
               table.table-type-1
                 thead
                   tr
-                    th.py-3(colspan="2") Concepto
-                    th.py-3 Valor
+                    th.py-3(colspan="2").text-start Concepto
+                    th.py-3.text-start Valor
                 tbody
                   tr
                     td.py-3(colspan="2").text-start Utilidad
-                    td.py-3.texto-right $ 5.000.000,00
+                    td.py-3.text-start $5.000.000,00
                   tr
                     td.py-3(colspan="2").text-start Menos impuesto de renta 32 %
-                    td.py-3.texto-right $ 1.600.000,00
+                    td.py-3.text-start $1.600.000,00
                   tr
                     td.py-3(colspan="2").text-start Utilidad neta
-                    td.py-3.texto-right $  3.400.000 
+                    td.py-3.text-start $3.400.000 
                   tr
                     td.py-3(colspan="2").text-start Reserva legal 10 %
-                    td.py-3.texto-right $ 340.000,00
+                    td.py-3.text-start $340.000,00
                   tr
                     td.py-3(colspan="2").text-start Utilidad a distribuir a los o accionistas
-                    td.py-3.texto-right $ 3.060.000,00
+                    td.py-3.text-start $3.060.000,00
     separador
 
     #t_2_5.titulo-segundo.color-acento-contenido
@@ -486,7 +480,7 @@
     .d-flex.flex-wrap.mb-5
       .col-lg-7.mb-4.mb-lg-0.order-2.order-lg-1(data-aos="fade-right")
         p.mb-4.p-4(style="background-color: #FEEAD4") Una entidad presentará su resultado integral total para un periodo: en un único estado del resultado integral, en cuyo caso el estado del resultado integral presentará todas las partidas de ingreso y gasto reconocidas en el periodo, además de las partidas correspondientes a utilidades no realizadas, o en dos estados, un estado de resultados y un estado del resultado integral, en cuyo caso el estado de resultados presentará todas las partidas de ingreso y gasto reconocidas en el periodo excepto las que estén reconocidas en el resultado integral total fuera del resultado.
-        p.mb-4 Se reconocen como otro resultado integral y forman parte del resultado integral total, cuando se producen:
+        p.mb-4 Se reconocen como otro resultado integral y forman parte del resultado integral total cuando se producen:
           br
           br
           | #[b Clases:]
@@ -562,7 +556,7 @@
         p.mb-0.text-white.fw-bold A continuación, se relacionan algunos conceptos que se deben tener en cuenta en el reconocimiento y medición de instrumentos financieros:
 
     .d-flex.flex-wrap
-      .col-lg-6.mx-auto.py-5.mb-5.order-2.order-lg-1(data-aos="fade-right")
+      .col-lg-6.mx-auto.py-5.order-2.order-lg-1(data-aos="fade-right")
         .col-xl.mb-4.px-0
           a.anexo.ajuste__movil_anexo.mb-4.mb-lg-0(href="https://www.aplicaciones-mcit.gov.co/adjuntos/niif/12_ES_BV2012_IFRS07_PART%20A.pdf" target="_blank")
             .anexo__icono
@@ -595,7 +589,6 @@
               p #[b Enlace web.] Consejo Técnico de la Contaduría Pública, 2014, P.8.
       .mx-auto.col-md-8.col-lg-6.order-1.order-lg-2
         img(src="@/assets/curso/tema2/img-16.svg", alt="", style="max-width: 610px").mx-auto.mb-4.ps-lg-4
-
 
 </template>
 

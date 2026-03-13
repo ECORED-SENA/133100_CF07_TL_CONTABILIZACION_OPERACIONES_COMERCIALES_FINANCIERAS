@@ -265,13 +265,13 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Líder del ecosistema',
-          centro: ' Centro Agroturístico- Regional Santander',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Responsable del ecosistema',
+          centro: 'Dirección General',
         },
         {
           nombre: 'Olga Constanza Bermúdez Jaimes',
-          cargo: 'Responsable de Línea de Producción Huila',
+          cargo: 'Responsable de línea de producción',
           centro: 'Dirección General',
         },
       ],
@@ -288,7 +288,7 @@ export default {
           nombre: 'Maryuri Agudelo Franco',
           cargo: 'Evaluadora instruccional',
           centro:
-            'Centro para la Industria de la Comunicación Gráfica. - Regional Distrito Capital',
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
       ],
     },
@@ -302,7 +302,7 @@ export default {
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Cielo Damaris Angulo Rodríguez',
+          nombre: 'Jhon Edinson Castañeda Oviedo',
           cargo: 'Desarrollador <i>Fullstack</i>',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
@@ -310,7 +310,7 @@ export default {
       ],
     },
     {
-      titulo: 'GESTORES DE REPOSITORIO',
+      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
           nombre: 'Aixa Natalia Sendoya Fernández',

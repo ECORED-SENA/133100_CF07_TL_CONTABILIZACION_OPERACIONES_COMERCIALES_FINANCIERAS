@@ -45,15 +45,11 @@
     background-image: url("../assets/curso/portada/fondo-banner-principal2.png") !important
 
 .banner-principal__row .banner-principal__img
-  width: 300px !important 
-  @media screen and (min-width: 1400px)
-    width: 355px !important
+  width: 425px !important
+  padding-bottom: 0px !important
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: black !important
-
-.banner-interno__titulo__icono i
-  color: $color-primario
 
 figcaption
   font-weight: normal
@@ -296,7 +292,7 @@ figcaption
   background-color: $white
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4)
   @media screen and (max-width: 1024px)
-    margin: 4rem 0rem 4rem 2rem
+    margin: 4rem 0rem 4rem 1rem
     padding: 2rem 2rem 1rem 2rem
   @media screen and (max-width: 390px)
     width: 85%
@@ -309,6 +305,7 @@ figcaption
 .slyder-a__bullets__item 
   background-color: #FDEF92
   border: 0px
+  margin: 0px 1px
 .slyder-a__bullets__item--active
   background-color: $color-acento-contenido
 .slyder-a__bullets__item
@@ -385,13 +382,11 @@ figcaption
   padding: 2rem
 
 .tabla-a
-  width: 100% !important
   overflow-x: auto
-  -webkit-overflow-scrolling: touch
   table
     border: none !important
-    width: 100%
-    min-width: 500px
+    table-layout: auto
+    min-width: auto
   thead
     border: none !important
     background-color: $color-acento-contenido !important
@@ -484,3 +479,6 @@ figcaption
   @media screen and (max-width: 1200px)
     margin: 0px -20px 24px 15px !important
     padding: 1rem 3rem
+
+.tabla-a td
+  white-space: nowrap
